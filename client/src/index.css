@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-header {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  padding: 5px;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  background-color: #a8d5e3;
+  position: fixed;
+  color: darkslateblue;
+}
+
+.app-content {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 70px 15px 10px 15px;
+  background-color: #f2f0ea;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  width: 50%;
+  height: 65px;
+  background-color: #a8d5e3;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.todo-input {
+  width: 85%;
+  height: 45px;
+  border-radius: 5px;
+  border-color: lightslategrey;
+  border-width: 2px;
+  border-style: solid;
+  padding: 3px 7px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.todo-input:focus-visible {
+  outline: none;
+}
+
+.todo-add {
+  width: 13%;
+  height: 45px;
+  border-radius: 5px;
+  border-color: lightslategrey;
+  border-width: 2px;
+  border-style: solid;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  color: green;
+  background-color: aliceblue;
+  transition: all 0.2s;
+}
+
+.todo-add:hover {
+  scale: 1.02;
+  background-color: green;
+  color: aliceblue;
+}
+
+.todo-list {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #a8d5e3;
+  border-radius: 5px;
+}
+
+.todo-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px;
+  padding: 0px 15px;
+}
+
+.todo {
+  width: 90%;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.icon {
+  border-radius: 50%;
+  border-width: 20px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.edit-input {
+  width: 650px;
+  height: 35px;
+  border-radius: 5px;
+  border-color: lightslategrey;
+  border-width: 2px;
+  border-style: solid;
+  padding: 3px 7px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
